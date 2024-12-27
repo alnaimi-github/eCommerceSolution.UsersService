@@ -1,0 +1,11 @@
+@User_Url=https://localhost:7190
+
+
+POST {{User_Url}}/api/auth/register
+Accept: application/json
+{
+ "name":"ali",
+  "email":"test@test.com",
+  "password":"Abc123",
+  "gender":"male" 
+}
